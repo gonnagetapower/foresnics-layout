@@ -18,11 +18,11 @@
 }
 
 @media(max-width: 1300px) {
-    
     .hero__container {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 0;
     }
     .hero__content {
         width: 100%;
@@ -68,7 +68,7 @@
 @media(max-width: 900px) {
     .hero__title {
        font-size: 24px;
-       padding-top: 20%;
+       padding-top: 25%;
     }
     .cicle1 {
         scale: 0.8;
