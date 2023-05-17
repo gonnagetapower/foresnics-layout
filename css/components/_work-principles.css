@@ -36,6 +36,8 @@
 
 .card__img {
     display: inline-block;
+    min-width: 70px;
+    min-height: 70px;
     width: 70px;
     height: 70px;
     object-fit: contain;

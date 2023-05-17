@@ -13,7 +13,7 @@
 .technologies__content {
     margin: 0 auto;
     width: 960px;
-    height: 396px;
+    height: auto;
     padding-left: 100px;
     padding-right: 100px;
     background: #EAF2F5;
@@ -26,6 +26,7 @@
 .skills__list {
     display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .skills__item {
