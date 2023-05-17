@@ -1,0 +1,34 @@
+.working-process__container {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 50px;
+}
+
+.working-process__title {
+    font-family: "Gilroy-ExtraBold";
+    font-size: 46px;
+    color: #22253B;
+    text-align: center;
+}
+
+.swiper {
+    width: 1000px;
+    height: 500px;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    margin: 0 auto;
+    min-height: 500px;
+    max-height: 500px;
+    display: block;
+    object-fit: cover;
+}

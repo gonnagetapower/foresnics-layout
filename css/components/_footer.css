@@ -1,0 +1,25 @@
+.footer {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 120px 0 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__license {
+    font-family: 'Gilroy-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #8E8E8E;
+}
+
+.footer_email {
+    font-family: 'Gilroy-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #007aff;
+}

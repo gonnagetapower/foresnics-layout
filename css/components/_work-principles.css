@@ -1,0 +1,60 @@
+.work-principles__container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.work-principles__title {
+    font-family: "Gilroy-ExtraBold";
+    font-size: 46px;
+    color: #22253B;
+    text-align: center;
+}
+
+.work-principles__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.card {
+    padding-top: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+    width: 270px;
+    height: 184px;
+    background: #EAF2F5;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card__img {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.card__title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy-Light';
+    font-size: 25px;
+    line-height: 18px;
+    color: #22253B;
+}
+
+.card__descr {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy-Light';
+    font-size: 13px;
+    line-height: 15px;
+    color: #22253B;
+}

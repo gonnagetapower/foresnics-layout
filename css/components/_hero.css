@@ -1,0 +1,109 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    /* background-color: rgba(125, 203, 221, 0.281); */
+    background: radial-gradient(rgba(172, 172, 255, 0.3),rgba(192, 242, 255, 0.377));
+}
+
+.hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    padding: 0 48px 0 48px;
+}
+
+.hero__title {
+    margin: 0;
+    font-size: 46px;
+    font-family: "Gilroy-Light";
+}
+
+.hero__title--bold-letter {
+    display: inline-block;
+    font-style: italic;
+}
+
+.hero__title--bold-letter::before {
+    content: "{";
+    color: #F15525;
+}
+.hero__title--bold-letter::after {
+    content: "}";
+    color: #F15525;
+}
+
+.hero__title::after {
+    display: inline-block;
+    content: "";
+    width: 500px;
+    height: 2px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.hero__descr {
+    margin: 0;
+    font-family: "Gilroy-Light";
+    font-size: 18px;
+}
+
+.hero__content {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero__img {
+    height: 400px;
+    width: 400px;
+    max-height: 100%;
+    padding: 50px;
+    z-index: -1;
+}
+
+.cicle1 {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(rgb(172, 172, 255),rgba(255, 192, 203, 0.227));
+    width: 900px;
+    height: 900px;
+    z-index: 4;
+}
+.cicle1::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 12%;
+    border-radius: 50%;
+    background: radial-gradient(rgba(0, 110, 255, 0.1),rgba(192, 214, 255, 0.227));
+    width: 1590px;
+    height: 960px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+
+.cicle2 {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: radial-gradient(rgb(172, 172, 255),rgba(255, 192, 203, 0.227));
+    width: 700px;
+    height: 700px;
+    z-index: 3;
+}
+
+.cicle3 {
+    border-radius: 50%;
+    padding: 15px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(rgb(110, 110, 247),rgba(255, 192, 203, 0.477));
+    z-index: 2;
+}

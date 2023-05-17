@@ -1,0 +1,70 @@
+.technologies {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.technologies__title {
+    font-family: "Gilroy-ExtraBold";
+    font-size: 46px;
+    color: #22253B;
+    text-align: center;
+}
+
+.technologies__content {
+    margin: 0 auto;
+    width: 960px;
+    height: 396px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #EAF2F5;
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.skills__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills__item {
+    font-family: "Gilroy-Light";
+    text-align: center;
+    padding: 7px;
+    margin: 5px;
+    background: #5096FF;
+    font-size: 22px;
+    line-height: 46px;
+    min-width: 170px;
+    color: #fff;
+    border-radius: 44px;
+}
+
+.skills__item:nth-child(2   ) {
+    background: #FFB359;
+}
+
+.skills__item:nth-child(3) {
+    background: #FF6F50;
+}
+
+.skills__item:nth-child(4) {
+    background: #4BD071;
+}
+
+.skills__item:nth-child(5) {
+    background: #50C0FF;
+}
+
+.skills__item:nth-child(6) {
+    background:  #FFB359;
+}
+
+.skills__item:nth-child(7) {
+    background: #4B77B9;
+}
+
+.skills__item:nth-child(8) {
+    background: #AF93FF;
+}
